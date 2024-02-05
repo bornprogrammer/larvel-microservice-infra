@@ -1,0 +1,39 @@
+{
+  "name": "laravel/infrastructure",
+  "type": "library",
+  "description": "took latest from develop,v2 email functionality,5657 changes",
+  "version": "1.0.1",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Laravel\\Infrastructure\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sandeep Kosta",
+      "email": "iamabornprogrammer@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "orchestra/testbench": "^7.0"
+  },
+  "require": {
+    "php": "^8.1",
+    "spatie/data-transfer-object": "^3.7",
+    "nesbot/carbon": "^2.58",
+    "league/flysystem-aws-s3-v3": "^3.0",
+    "aws/aws-sdk-php": "^3.225",
+    "owen-it/laravel-auditing": "^13.0",
+    "spatie/laravel-webhook-client": "^3.1",
+    "barryvdh/laravel-dompdf": "^2.0",
+    "maatwebsite/excel": "^3.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Laravel\\Infrastructure\\InfraServiceProvider"
+      ]
+    }
+  }
+}
